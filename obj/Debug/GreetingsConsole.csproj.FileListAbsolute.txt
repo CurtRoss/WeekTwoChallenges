@@ -1,0 +1,7 @@
+C:\ElevenFiftyProjects\CSharpFundamentals\GreetingsConsole\bin\Debug\GreetingsConsole.exe.config
+C:\ElevenFiftyProjects\CSharpFundamentals\GreetingsConsole\bin\Debug\GreetingsConsole.exe
+C:\ElevenFiftyProjects\CSharpFundamentals\GreetingsConsole\bin\Debug\GreetingsConsole.pdb
+C:\ElevenFiftyProjects\CSharpFundamentals\GreetingsConsole\obj\Debug\GreetingsConsole.csprojAssemblyReference.cache
+C:\ElevenFiftyProjects\CSharpFundamentals\GreetingsConsole\obj\Debug\GreetingsConsole.csproj.CoreCompileInputs.cache
+C:\ElevenFiftyProjects\CSharpFundamentals\GreetingsConsole\obj\Debug\GreetingsConsole.exe
+C:\ElevenFiftyProjects\CSharpFundamentals\GreetingsConsole\obj\Debug\GreetingsConsole.pdb
