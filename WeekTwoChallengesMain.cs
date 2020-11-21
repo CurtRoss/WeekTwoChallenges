@@ -10,34 +10,40 @@ namespace GreetingsConsole
     {
         static void Main(string[] args)
         {
-            //Greeting
-            Greeter person1 = new Greeter();
-            Console.WriteLine("Please enter your name");
-            string name = Console.ReadLine();
-            string greeting = person1.HelloName(name);
-            Console.WriteLine(greeting);
-            Console.WriteLine(person1.GreetTime());
-
-            //Farewell
-            Greeter person2 = new Greeter();
-            Console.WriteLine("Are you leaving? yes or no");
-            string answer = Console.ReadLine();
-            switch (answer)
+            int i = 1;
+            while (i < 2)
             {
-                case "yes":
-                    string farewell = person2.FarewellName(name);
-                    Console.WriteLine(farewell);
-                    break;
+                //Greeting
+                Greeter person1 = new Greeter();
+                Console.WriteLine("Please enter your name");
+                string name = Console.ReadLine();
+                string greeting = person1.HelloName(name);
+                Console.WriteLine(greeting);
+                Console.WriteLine(person1.GreetTime());
 
-                case "no":
-                    Console.WriteLine("Oh, hang around then");
-                    break;
+                //Farewell
+                Greeter person2 = new Greeter();
+                Console.WriteLine("Are you leaving? yes or no");
+                string answer = Console.ReadLine();
+                switch (answer)
+                {
+                    case "yes":
+                        string farewell = person2.FarewellName(name);
+                        Console.WriteLine(farewell);
+                        i++;
+                        break;
 
-                default:
-                    Console.WriteLine("I did not understand that");
-                    break;
+                    case "no":
+                        Console.WriteLine("Oh, hang around then");
+                        break;
+
+                    default:
+                        Console.WriteLine("I did not understand that");
+                        break;
+                }
+
             }
-            Console.ReadLine();
+                Console.ReadLine();
         }
     }
 
